@@ -6,7 +6,7 @@ html {
 
 p {
   padding: 40px;
-  color: blue;
+  color: darkblue;
 
 }
 
@@ -62,7 +62,8 @@ li a {
 
 
 li:hover {
-    background: #ffe1e6;
+    /*rosa* #ffe1e6*/
+    background: #f8f7f7;
     cursor: pointer;
 }
 
