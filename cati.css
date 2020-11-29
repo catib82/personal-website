@@ -17,9 +17,11 @@ figcaption {
   font-size: .9em;
   font-style: italic;
 }
+
 nav li a:hover:before {
   content: '> ';
 }
+
 
 nav li a, figcaption {
   color: blue;
