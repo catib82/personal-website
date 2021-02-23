@@ -39,16 +39,11 @@ function choosePic(event) {
         'images/home/Bestard-Fragments-9.jpg',
         'images/home/Bestard-Fragments-10.jpg',
         'images/home/Bestard-Fragments-11.jpg',
-        'images/home/Bestard-Fragments-12.jpg',
-        'images/home/Bestard-Fragments-13.jpg',
-        'images/home/Bestard-Fragments-14.jpg',
-        'images/home/Bestard-Fragments-15.jpg',
-        'images/home/Bestard-Fragments-16.jpg',
     ];
     // start with 1
-    for(let i=1; i <= 15; i++){
+    for(let i=1; i <= 11; i++){
         // 14 is missing!!!
-        if(i === 14) continue;
+        if(i === 10) continue;
         images.push(`images/home/Bestard-Fragments-${i}.jpg`);
     }
     const index = Math.floor(Math.random() * images.length);
