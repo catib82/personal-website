@@ -7,12 +7,14 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
 /* cati */
 html {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   color: darkblue;  
 }
 li, a {
   color: blue;
+  font-size: 16px;
 }
+
 figcaption {
   font-size: .9em;
   font-style: italic;
@@ -22,7 +24,6 @@ nav li a:hover:before {
   content: '> ';
 }
 
-
 nav li a, figcaption {
   color: blue;
 }
@@ -31,9 +32,58 @@ nav h1 a, nav h3 a{
   margin: 0;
 }
 
+p {
+  width: 80%;
+}
+
 img {
+  width: 50%;
+  height: auto;
+}
+
+.cita{
+  font-size: 0.8rem;
+}
+
+.about{
+  margin: 50px;
+
+}
+
+.maininresponse{
   width: 60%;
   height: auto;
+}
+
+.imagesinresponse {
+  display: flex;
+  width: 100%;
+  margin: 75px;
+
+}
+
+.inresponse{
+  max-width: 20%;
+  height: auto;
+}
+
+.inresponse:hover {
+  transform: scale(1.5);
+}
+
+.imagesform {
+  display:flex;
+  margin: 40px;
+  }
+
+.form {
+  max-width: 10%;
+  visibility: visible;
+
+}
+
+.form > img:hover{
+  transform: scale(2.5)
 }
 
 
@@ -43,109 +93,4 @@ img {
     height: auto;
   }
 }
-
-/*html {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-}
-
-p {
-  padding: 40px;
-  color: darkblue;
-
-}
-
-figure {
-  padding:5px;
-}
-
-figcaption {
-  color: blue;
-  font-size: 12px;
-  font-style: italic;
-  padding: 0px
-  margin-left: 40px
-
-}
-
-
-a {
-  text-decoration: none;
-  color: blue;
-  font-size: 15px;
-  }
-
-ul {
-  background: white;
-  color: blue;
-  margin:3px;
-  padding-left: 10px;
-}
-
-
-
-
-li {
-    color: blue;
-    background: white;
-    display: block;
-    float: left;
-    font-size: 8px;
-    padding: 4px;
-    position: relative;
-    transition-duration: 0.5s;
-    text-decoration: none;
-
-}
-
-
-li a {
-  color: blue;
-  padding: 20px;
-  padding-top: 2px;
-}
-
-
-
-li:hover {
-    /*rosa* #ffe1e6* gris 
-    background: #f8f7f7;
-    cursor: pointer;
-    padding-left: 5px;
-}
-
-
-
-ul li ul {
-  background: white;
-  visibility: hidden;
-  font-size: 8px;
-  opacity: 0;
-  min-width: 100px;
-  max-width: width;
-  position: absolute;
-  transition: all 0.5s ease;
-  text-align: left;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  text-decoration: none;
-
-
-}
-
-
-ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
-ul li ul li {
-  clear: both;
-  width: 100%;
-}
-
-*/
-
 
